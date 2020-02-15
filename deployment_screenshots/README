@@ -1,0 +1,10 @@
+1. Deployment endpoint
+
+http://image-filter-api-dev.us-west-2.elasticbeanstalk.com/filteredimage?image_url=https://s3.amazonaws.com/nerit-cms/ibracam/text-editor/Globo.png
+
+
+2. Elasticbeanstalk cli
+
+I have included the folder .elasticbeanstalk with config.yml
+This file is used by elasticbeanstalk cli to deploy my code in AWS
+I have used the statements eb init, eb create, and eb deploy commands
