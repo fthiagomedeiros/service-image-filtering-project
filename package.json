@@ -2,8 +2,10 @@
   "name": "udacity-c2-image-filter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "www/server.js",
   "scripts": {
+    "start": "node .",
+    "cbs": "npm run clean && npm run build && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf www/ || true",
     "build": "npm run clean && tsc && cp package.json www/package.json && mkdir www/tmp/ && cd www && zip -r Archive.zip . && cd ..",
@@ -29,6 +31,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "is-image-url": "^1.1.8",
     "jimp": "^0.6.4"
   }
 }
