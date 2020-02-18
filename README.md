@@ -1,3 +1,7 @@
+# Udacity Nanodegree - Project 2
+
+This is the project 2 as part of my Udacity Cloud Nanodegree.
+
 # Deployment endpoint
 
 http://image-filter-api-dev.us-west-2.elasticbeanstalk.com/filteredimage?image_url=https://s3.amazonaws.com/nerit-cms/ibracam/text-editor/Globo.png
